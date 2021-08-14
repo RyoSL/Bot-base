@@ -11,7 +11,7 @@ module.exports = {
             message.delete()
         let entrada = args.join(' ')
         if (typeof code !== 'string')
-        if (message.author.id !== '819716427783209040') return message.channel.send(`${message.author} | Apenas pessoas especiais podem utilizar este comando! D:`)
+        if (message.author.id !== 'SEU ID') return message.channel.send(`${message.author} | Apenas pessoas especiais podem utilizar este comando! D:`)
             const data = eval(args.join(' ').replace(/```/g, ''));
             const embed = new Discord.MessageEmbed()
                 .setTitle('código executado com sucesso!')
