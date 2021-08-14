@@ -10,7 +10,7 @@ module.exports = {
         },
         run: async (bot, message, args, string, member) => {
             message.delete()
-            if (message.author.id !== '852704340526628934') return message.channel.send(`${message.author} | Apenas pessoas especiais podem utilizar este comando! D:`)
+            if (message.author.id !== 'SEU ID') return message.channel.send(`${message.author} | Apenas pessoas especiais podem utilizar este comando! D:`)
             const embed = new MessageEmbed()
             .setColor('BLUE')
             .setDescription(bot.guilds.cache.map(g => `**Nome:** ${g.name}\n**ID:** ${g.id}\n**Membros:** ${g.memberCount}`).join("\n\n"))
