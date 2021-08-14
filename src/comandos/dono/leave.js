@@ -9,7 +9,7 @@ module.exports = {
         },
         run: async (client, message, args) => {
             message.delete()
-            if (message.author.id !== '852704340526628934') return message.channel.send(`${message.author} | Apenas pessoas especiais podem utilizar este comando! D:`)
+            if (message.author.id !== 'SEU ID') return message.channel.send(`${message.author} | Apenas pessoas especiais podem utilizar este comando! D:`)
 
   const value = args[0];
 
